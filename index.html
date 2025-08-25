@@ -1,27 +1,281 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <title>Currículo de las enseñanzas de Música Castilla y León</title>
-    <meta name="description" content="" >
-	<meta name="keywords" content="," />  
-    <link type="text/css" rel="stylesheet" href="styles.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi sitio con Markdown</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #2c3e50;
+            color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            margin-bottom: 10px;
+        }
+        
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        
+        .entries-list {
+            flex: 1;
+            min-width: 300px;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        .entries-list h2 {
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #3498db;
+            color: #2c3e50;
+        }
+        
+        .entry-item {
+            padding: 12px 15px;
+            margin-bottom: 10px;
+            background: #f8f9fa;
+            border-left: 4px solid #3498db;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .entry-item:hover {
+            background: #e9ecef;
+            transform: translateX(5px);
+        }
+        
+        .entry-content {
+            flex: 2;
+            min-width: 500px;
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        .entry-content h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e9ecef;
+        }
+        
+        #content {
+            line-height: 1.8;
+        }
+        
+        #content h1, #content h2, #content h3 {
+            margin-top: 1.5em;
+            margin-bottom: 0.5em;
+            color: #2c3e50;
+        }
+        
+        #content p {
+            margin-bottom: 1em;
+        }
+        
+        #content code {
+            background-color: #f8f9fa;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+        }
+        
+        #content pre {
+            background-color: #2c3e50;
+            color: white;
+            padding: 15px;
+            border-radius: 6px;
+            overflow-x: auto;
+            margin: 15px 0;
+        }
+        
+        #content blockquote {
+            border-left: 4px solid #3498db;
+            padding-left: 15px;
+            margin: 15px 0;
+            color: #7f8c8d;
+            font-style: italic;
+        }
+        
+        .back-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+        
+        .back-button:hover {
+            background-color: #2980b9;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+        
+        @media (max-width: 900px) {
+            .container {
+                flex-direction: column;
+            }
+            
+            .entries-list, .entry-content {
+                min-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mi Documentación</h1>
+        <p>Explora los archivos Markdown de mi repositorio</p>
+    </header>
+    
+    <div class="container">
+        <div class="entries-list">
+            <h2>Archivos Disponibles</h2>
+            <div id="entries"></div>
+        </div>
+        
+        <div class="entry-content">
+            <h2 id="content-title">Selecciona un archivo</h2>
+            <div id="content">
+                <p>Selecciona un archivo de la lista para ver su contenido aquí.</p>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>Generado con GitHub Pages | Usando Marked.js para renderizar Markdown</p>
+    </footer>
 
+    <script>
+        // Lista de archivos markdown (debes reemplazar esto con tus propios archivos)
+        const markdownFiles = [
+            { title: 'Introducción', filename: 'introduccion.md' },
+            { title: 'Instalación', filename: 'instalacion.md' },
+            { title: 'Uso Básico', filename: 'uso-basico.md' },
+            { title: 'Configuración Avanzada', filename: 'configuracion-avanzada.md' },
+            { title: 'FAQ', filename: 'faq.md' }
+        ];
+        
+        // Elementos del DOM
+        const entriesContainer = document.getElementById('entries');
+        const contentTitle = document.getElementById('content-title');
+        const contentDiv = document.getElementById('content');
+        
+        // Cargar la lista de entradas
+        function loadEntries() {
+            entriesContainer.innerHTML = '';
+            
+            markdownFiles.forEach(file => {
+                const entryElement = document.createElement('div');
+                entryElement.className = 'entry-item';
+                entryElement.textContent = file.title;
+                entryElement.addEventListener('click', () => {
+                    loadMarkdownFile(file.filename, file.title);
+                });
+                
+                entriesContainer.appendChild(entryElement);
+            });
+        }
+        
+        // Cargar y mostrar el archivo markdown
+        function loadMarkdownFile(filename, title) {
+            contentTitle.textContent = title;
+            contentDiv.innerHTML = '<p>Cargando...</p>';
+            
+            // En un entorno real, esto cargaría desde tu carpeta /entries/
+            // Por ahora simulamos una carga con un timeout
+            setTimeout(() => {
+                // Contenido de ejemplo (reemplazar con fetch real)
+                const exampleContent = `# ${title}
+                
+## Este es un ejemplo de contenido Markdown
 
-	
-	<link rel="stylesheet" type="text/css" href="/educacyl/css-sys/css-system.css" />
+Puedes escribir contenido en **markdown** y se renderizará automáticamente.
 
-  </head>
-  <body>
-    <h1>Hola!</h1>
-    <nav>
-      
-    </nav>
-    <main>
-      
-    </main>
-    <fotter>
-      
-    </fotter>
-  </body>
+### Características soportadas:
 
+- Listas con viñetas
+- **Texto en negrita**
+- *Texto en cursiva*
+- [Enlaces](https://github.com)
+- Código: \`console.log('Hola mundo')\`
+
+### Bloque de código:
+\`\`\`javascript
+function ejemplo() {
+    console.log('Este es un bloque de código');
+    return true;
+}
+\`\`\`
+
+> Blockquote: Esta es una cita destacada.
+
+Para tus archivos reales, necesitarás reemplazar esta función con una llamada fetch real a tu carpeta /entries/.`;
+                
+                // Renderizar el markdown
+                contentDiv.innerHTML = marked.parse(exampleContent);
+            }, 500);
+        }
+        
+        // Inicializar
+        loadEntries();
+        
+        // Para producción, necesitarás implementar fetch real a tus archivos:
+        /*
+        async function loadMarkdownFile(filename, title) {
+            contentTitle.textContent = title;
+            contentDiv.innerHTML = '<p>Cargando...</p>';
+            
+            try {
+                const response = await fetch(`entries/${filename}`);
+                if (!response.ok) throw new Error('Archivo no encontrado');
+                
+                const markdown = await response.text();
+                contentDiv.innerHTML = marked.parse(markdown);
+            } catch (error) {
+                contentDiv.innerHTML = `<p>Error al cargar el archivo: ${error.message}</p>`;
+            }
+        }
+        */
+    </script>
+</body>
 </html>
