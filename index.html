@@ -141,6 +141,12 @@
             justify-content: center;
             font-size: 0.8rem;
             margin-right: 10px;
+            flex-shrink: 0;
+        }
+
+        .entry-title {
+            flex-grow: 1;
+            font-weight: 500;
         }
 
         .content {
@@ -279,6 +285,13 @@
             padding: 20px;
         }
 
+        .filename {
+            font-size: 0.9rem;
+            color: var(--text-light);
+            margin-top: 5px;
+            font-style: italic;
+        }
+
         @media (max-width: 900px) {
             .main-content {
                 flex-direction: column;
@@ -332,7 +345,7 @@
     <script>
         // Lista de archivos markdown
         const markdownFiles = [
-            "00-Intro.md",
+            "o.md",
             "01-art-1.md",
             "02-art-2.md",
             "03-art-3.md",
@@ -423,30 +436,59 @@
         const searchInput = document.getElementById('search');
         const backToTopButton = document.getElementById('back-to-top');
 
+        // Almacenamiento para títulos de documentos
+        let documentTitles = {};
+
+        // Función para extraer el título de un archivo markdown
+        function extractTitleFromMarkdown(markdownText) {
+            // Buscar el primer título (h1 o h2)
+            const h1Match = markdownText.match(/^#\s+(.+)$/m);
+            if (h1Match) return h1Match[1].trim();
+            
+            const h2Match = markdownText.match(/^##\s+(.+)$/m);
+            if (h2Match) return h2Match[1].trim();
+            
+            // Si no encuentra título, usar el nombre del archivo sin extensión
+            return null;
+        }
+
         // Cargar la lista de entradas
-        function loadEntriesList() {
+        async function loadEntriesList() {
+            entriesList.innerHTML = '<li><p class="loading"><i class="fas fa-spinner fa-spin"></i> Cargando documentos...</p></li>';
+            
+            // Cargar cada documento para extraer su título
+            for (let i = 0; i < markdownFiles.length; i++) {
+                const file = markdownFiles[i];
+                try {
+                    const response = await fetch(`entries/${file}`);
+                    if (response.ok) {
+                        const markdown = await response.text();
+                        const title = extractTitleFromMarkdown(markdown) || file.replace('.md', '').replace(/-/g, ' ');
+                        documentTitles[file] = title;
+                    } else {
+                        documentTitles[file] = file.replace('.md', '').replace(/-/g, ' ');
+                    }
+                } catch (error) {
+                    documentTitles[file] = file.replace('.md', '').replace(/-/g, ' ');
+                }
+            }
+            
+            // Ahora mostrar la lista con los títulos
             entriesList.innerHTML = '';
             
             markdownFiles.forEach((file, index) => {
                 const listItem = document.createElement('li');
-                
-                // Crear un nombre más legible para mostrar
-                let displayName = file
-                    .replace(/\d+-/g, '') // Elimina números y guiones al inicio
-                    .replace(/\.md$/, '') // Elimina la extensión .md
-                    .replace(/-/g, ' ') // Reemplaza guiones con espacios
-                    .split(' ') // Divide en palabras
-                    .map(word => word.charAt(0).toUpperCase() + word.slice(1)) // Capitaliza cada palabra
-                    .join(' '); // Vuelve a unir
+                const displayName = documentTitles[file] || file.replace('.md', '').replace(/-/g, ' ');
                 
                 listItem.innerHTML = `
                     <div class="entry-item" data-filename="${file}">
                         <div style="display: flex; align-items: center;">
                             <span class="entry-number">${index + 1}</span>
-                            ${displayName}
+                            <span class="entry-title">${displayName}</span>
                         </div>
                         <i class="fas fa-chevron-right"></i>
                     </div>
+                    <div class="filename">${file}</div>
                 `;
                 
                 entriesList.appendChild(listItem);
@@ -472,7 +514,8 @@
 
         // Cargar y mostrar el archivo markdown
         async function loadMarkdownFile(filename) {
-            contentTitle.innerHTML = `<i class="fas fa-file-alt"></i> ${filename}`;
+            const displayName = documentTitles[filename] || filename.replace('.md', '').replace(/-/g, ' ');
+            contentTitle.innerHTML = `<i class="fas fa-file-alt"></i> ${displayName}`;
             markdownContent.innerHTML = '<p class="loading"><i class="fas fa-spinner fa-spin"></i> Cargando...</p>';
             
             try {
@@ -493,7 +536,9 @@
                 
                 document.querySelectorAll('.entry-item').forEach(item => {
                     const itemText = item.textContent.toLowerCase();
-                    if (itemText.includes(searchTerm)) {
+                    const filename = item.nextElementSibling.textContent.toLowerCase();
+                    
+                    if (itemText.includes(searchTerm) || filename.includes(searchTerm)) {
                         item.parentElement.style.display = 'block';
                     } else {
                         item.parentElement.style.display = 'none';
@@ -524,15 +569,15 @@
             setupSearch();
             setupBackToTop();
             
-            // Cargar el primer documento por defecto
-            if (markdownFiles.length > 0) {
-                setTimeout(() => {
+            // Cargar el primer documento por defecto cuando esté listo
+            setTimeout(() => {
+                if (markdownFiles.length > 0) {
                     const firstItem = document.querySelector('.entry-item');
                     if (firstItem) {
                         firstItem.click();
                     }
-                }, 500);
-            }
+                }
+            }, 1000);
         });
     </script>
 </body>
