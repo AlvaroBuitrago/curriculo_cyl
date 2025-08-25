@@ -1,0 +1,48 @@
+# **BAJO CONTINUO**
+
+## **Introducción**
+
+El conocimiento y estudio del bajo continuo constituye un pilar fundamental de la formación de los instrumentistas en la formación global de los alumnos de especialidades vinculadas a la música antigua, especialmente en el caso de aquéllos que tocan instrumentos de los denominados armónicos (tecla y cuerda pulsada), así como la herramienta que les permitirá abordar el repertorio propio de las asignaturas de música de cámara y conjunto.
+
+Hay diferentes razones que sustentan estas afirmaciones, desde el refuerzo que supone para los conocimientos adquiridos en otras asignaturas del currículo hasta consideraciones que afectan al futuro profesional de los estudiantes.
+
+En primer lugar, el conocimiento del bajo continuo es básico para la comprensión de la música que interpretan en sus respectivas asignaturas instrumentales, puesto que dicha disciplina, como técnica compositiva, se encuentra en el fundamento mismo del arte musical occidental desde los albores del siglo XVII hasta las postrimerías del siglo XVIII.
+
+Por otro lado, y en tanto propedéutica de las asignaturas de música de cámara y conjunto, el bajo continuo supone también una piedra angular en la formación de los futuros instrumentistas. A lo largo de toda la época de florecimiento de los instrumentos referidos, éstos sirvieron como elemento indispensable en prácticamente cualquier formación de música sacra o profana, aportando acompañamiento armónico a todo tipo de obras concertantes, desde sonatas a solo hasta óperas y cantatas. Esta tradición pervivió desde finales del Renacimiento, a lo largo de toda la época barroca, hasta los inicios del siglo XIX (Haydn dirigía sus sinfonías en Londres desde el teclado). El ubicuo continuista fue, de hecho, el más solicitado de todos los músicos por más de tres siglos, y la inmensa mayoría de las piezas camerísticas con bajo continuo para tecla o cuerda pulsada de la época que han llegado hasta nosotros consisten en poco más que una línea de bajo cifrado. A partir de esa esquemática notación, que consiste sólo en la parte inferior de la composición musical, completada con cifras y accidentales a modo de estenografía para indicar las armonías, el teclista o laudista de la época improvisaba realizaciones que desempeñaban las funciones esenciales del acompañamiento: asegurar y reforzar la pulsión rítmica de la música, así como un relleno armónico, y en ocasiones contrapuntístico, de la textura sonora; en definitiva, constituía el sostén del grupo en su sentido más amplio.
+
+La de bajo continuo es, además, una asignatura que refuerza y afianza los conocimientos de armonía, acompañamiento e improvisación del alumno. Es por ello que su estudio comienza en el tercer curso de las enseñanzas profesionales, coincidiendo con el inicio de los estudios de armonía, momento a partir del cual comienza a ser exigible al alumno la aplicación práctica de lo aprendido en esa asignatura, que, a su vez, se ve reforzada en su vertiente interpretativa, puesto que a la hora de realizar adecuadamente un bajo continuo entran en juego habilidades de índole armónica y contrapuntística que se actualizan de manera improvisada. La idea de elaborar un *contrapunto alla mente* es consustancial al hecho mismo de la realización del bajo continuo, y constituye un ejercicio fundamental de creación musical que involucra muy diversas disciplinas: es evidente que el primer requisito de un continuista es que sea capaz de tocar los acordes correctamente, pero ninguno tocará bien continuo sin conocimientos históricos, experiencia práctica y sensibilidad armónica, o sin comprender su instrumento y el papel que desempeña en la pieza musical en cuestión.
+
+En última instancia y por todo lo explicado, hay que afirmar categóricamente que el dominio de la ejecución del bajo continuo es un requisito imprescindible para los instrumentistas que toquen un instrumento armónico y deseen desarrollar una actividad profesional en el terreno de la música antigua. 
+
+## **Objetivos**
+
+1) Adquirir y desarrollar la práctica de la armonía desde el instrumento.  
+2) Conocer y distinguir los tres grandes estilos del bajo continuo: francés, alemán e italiano.  
+3) Conocer y consultar los principales escritos y tratados históricos de esta materia, así como las partituras y fuentes originales de las obras barrocas con bajo continuo.  
+4) Desarrollar la capacidad para realizar el bajo continuo a primera vista.  
+5) Conocer y valorar el repertorio con bajo continuo.  
+6) Conocer el desarrollo histórico del bajo continuo.  
+7) Conocer el cifrado de acordes barroco, su evolución histórica y su aplicación práctica sobre el instrumento.  
+8) Conocer y utilizar la terminología propia de la materia.  
+9) Conocer las diferentes agrupaciones históricas de bajo continuo en las distintas épocas y países.  
+10) Contribuir a mejorar la capacidad y los conocimientos de improvisación y acompañamiento del alumno, potenciando el desarrollo de una escucha crítica y en tiempo real que le permita interactuar con el/los solistas/s.
+
+## **Contenidos**
+
+El bajo continuo: definición y evolución histórica. Bajo cifrado y bajo figurado. Basso seguente. El cifrado. Diferentes sistemas. Diferencias con la notación actual. Los instrumentos y agrupaciones de continuo.
+
+Los orígenes del bajo continuo: la monodia acompañada. Viadana, Caccini, Peri y Monteverdi. El bajo continuo en Francia: Dandrieu y Saint Lambert, la regla de la octava, características y principales tratados. El bajo continuo en Alemania: Heinichen, Teleman y Bach, características y principales tratados. El bajo continuo en Italia: S. XVII, S. XVIII, principales tratados (Agazzari, Penna, Muffat, Gasparini, Geminiani, Bismantova). El estilo pleno. El bajo continuo en España: José de Torres y Santiago de Murcia. El bajo continuo después de J.S. Bach: C.Ph.E. Bach y J.J. Quantz. El recitativo. La ornamentación en el bajo continuo.
+
+Práctica de la lectura a vista. Repentización de una partitura acompañando a un solista. Práctica camerística en formaciones diversas.
+
+## **Criterios de Evaluación**
+
+1. **Realizar bajos cifrados atendiendo a la correcta conducción de las voces y respetando las características propias de cada estilo de continuo.** *Con este criterio de evaluación se trata de comprobar el dominio del alumno en lo referente a la mecánica de encadenamiento de acordes y su aplicación a una realización cuidada e interesante desde el punto de vista musical.*  
+2. **Armonizar bajos sin cifrar atendiendo a la correcta conducción de las voces y respetando las características propias de cada estilo de continuo.** *Este criterio permite evaluar la capacidad del alumno para emplear con un sentido sintáctico los diferentes acordes y procedimientos armónicos, así como su habilidad para la consecución de una realización correcta e interesante desde el punto de vista musical.*  
+3. **Desarrollar esquemas armónicos fijos y bajos ostinatos.** *Este criterio de evaluación permitirá valorar la capacidad del alumno para crear en su integridad pequeñas piezas musicales a partir de las indicaciones armónicas esquemáticas o de los procedimientos que se le propongan, así como su habilidad para lograr una realización lógica, cuidada e interesante, con especial atención a las voces extremas.*  
+4. **Identificar auditivamente los principales elementos morfológicos de la armonía tonal**. *Mediante este criterio podrá evaluarse el progreso de la habilidad auditiva del alumno a través de la identificación de los diversos tipos de acordes estudiados, en estado fundamental y en sus inversiones.*  
+5. **Identificar auditivamente los principales procedimientos sintácticos de la armonía tonal.** *Este criterio de evaluación permitirá valorar el progreso de la habilidad auditiva del alumno en el reconocimiento del papel funcional desempeñado por los distintos acordes dentro de los elementos formales básicos (cadencias, progresiones, etc.).*  
+6. **Demostrar capacidad para abordar individualmente el estudio del bajo continuo.** *Con este criterio se pretende evaluar la autonomía del estudiante y su competencia para emprender el estudio individualizado y la resolución de los problemas que se le planteen en el estudio.*  
+7. **Demostrar solvencia en la lectura a primera vista y capacidad progresiva en la improvisación sobre el instrumento.** *Este criterio evalúa la competencia progresiva que adquiera el alumno en la lectura a primera vista, así como su desenvoltura para abordar la improvisación en el instrumento aplicando los conocimientos adquiridos.*  
+8. **Demostrar capacidad y disposición para colaborar con los compañeros en la formación y en la organización de los grupos de cámara necesarios para la realización práctica de la asignatura.** *Este criterio evalúa la implicación activa del alumno para formar y gestionar sus propias agrupaciones instrumentales, con las que ejercitarse en la realización del bajo continuo; también se evaluará su progresivo aprendizaje para optimizar la organización y el desarrollo de los ensayos previos a las clases con el profesor.*  
+9. **Respetar las opiniones de los compañeros como base fundamental para el trabajo de música en conjunto.** *Con este criterio se pretende evaluar la capacidad del alumno de aceptar las propuestas musicales de los otros intérpretes adaptándose a ellas o, en su defecto, de saber cuestionarlas o rebatirlas de manera constructiva.*

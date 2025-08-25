@@ -1,0 +1,53 @@
+# **ORQUESTA/BANDA**
+
+## **Introducción**
+
+El proceso de enseñanza y aprendizaje de las diversas especialidades instrumentales tiene forzosamente un marcado carácter individual. De ahí que el currículo deba albergar asignaturas que trasciendan esta componente unipersonal de la práctica musical e introduzcan elementos colectivos. La práctica instrumental resulta así entendida no sólo como la adquisición de una compleja técnica y la progresiva formación de unos criterios musicales propios, sino también como una herramienta de relación social y de intercambio de ideas entre los propios instrumentistas.
+
+La educación musical no puede ni debe perseguir como única meta la formación de solistas instrumentales «stricto sensu»; su principal misión debe ser ofrecer a la sociedad los músicos que ésta necesita para poder canalizar aquellas actividades que demanda la comunidad. En este sentido, a partir del siglo XIX, la orquesta se ha convertido, por su extenso repertorio y por su vasto potencial comunicador, en el vehículo de expresión musical por antonomasia. El elevado número de instrumentistas que la integra provoca, en consecuencia, que un porcentaje muy alto de los estudiantes de aquellos instrumentos susceptibles de entrar a formar parte de la orquesta (cuerda, viento y percusión, fundamentalmente) tengan en ésta su destino profesional más frecuente y, a menudo, único.
+
+La práctica indistinta de orquesta o banda, o, en su caso, el conjunto que corresponda tiene por finalidad facilitar la participación, a través de distintas formaciones, de todos los alumnos. Se procura así una organización más flexible de la enseñanza al mismo tiempo que se permite que determinados instrumentos con dificultades de integración tengan el marco oportuno para la práctica instrumental colectiva. Así pues, la participación en las agrupaciones ya sean instrumentales o corales, supone y garantiza la presencia activa de los alumnos en una de las actividades que implican mayor proyección del centro en la sociedad.
+
+La práctica de la orquesta o banda se impone, por tanto, como una asignatura cuya inclusión en el seno del currículo de las enseñanzas profesionales de música viene justificada en un doble sentido. Por un lado, porque ofrecerá a los instrumentistas la experiencia y los conocimientos necesarios relativos al funcionamiento, las reglas y la convivencia características de la interpretación de estas agrupaciones. Por otro, porque actuará positivamente sobre todos aquellos instrumentos cuyo nivel les capacite especialmente para tocar en una agrupación.
+
+Evitará, en suma, que consideren la vida profesional de estos músicos como una opción de segunda fila, acrecentará su decantación hacia el inicio de una determinada opción profesional y facilitará su ingreso y su adaptación psicológica en un cuerpo social reducido, pero con unas reglas muy definidas y no siempre cómodas o fáciles de cumplir.
+
+Al igual que la música de cámara –una asignatura que persigue objetivos de una naturaleza similar, la orquesta, la banda o el conjunto servirán para sacar al alumno de un repertorio casi siempre caracterizado por sus dificultades técnicas y por la desigualdad con respecto al instrumento encargado de acompañarlo (a manudo el piano) e introducirlo en un mundo nuevo, más igualitario y de naturaleza más rica y variopinta. Así, los géneros musicales dejarán de ser solamente la sonata, el concierto o las piezas de virtuosismo, con lo cual el alumno podrá adentrarse en otras como la sinfonía, el oratorio, el poema sinfónico o incluso la ópera. En el caso de instrumentos con una literatura escasa o con partituras de muy desigual valía musical, estas agrupaciones suponen la posibilidad de adentrarse en las composiciones más relevantes de la historia de la música occidental en igualdad de condiciones con respecto a instrumentos más «hegemónicos» (violín, flauta o trompa, por ejemplo), con todo lo que ello implica de enriquecimiento en la formación musical del alumno. La convivencia con instrumentos de naturaleza y técnicas muy diversas, en fin, proporcionará también al alumno una visión mucho más amplia del hecho musical y enriquecerá su conocimiento de los timbres (tanto individual como colectivamente considerados) y de las diversas peculiaridades organológicas. 
+
+Las dificultades técnicas o el mero lucimiento del solista darán paso a un repertorio que alberga muchas de las mejores páginas de la música occidental y a un complejo entramado de interrelaciones instrumentales en las que el alumno se sentirá protagonista destacado. El hecho de que sean varios los instrumentistas encargados de tocar una sola voz o parte no tiene por qué empañar un ápice este protagonismo, que por el hecho de ser colectivo no debe implicar una disminución del perfil desempeñado por cada uno de los integrantes de la agrupación. Ésta es una suma de individualidades aunadas por la mente rectora del director, que ha de saber extraer lo mejor de aquéllas, que en ningún caso deben aspirar a perderse en el anonimato, como tampoco sobresalir por encima de sus compañeras. La unidad de criterio y la igualdad de la ejecución han de ser por ello las principales metas a alcanzar.
+
+La orquesta, la banda y los conjuntos que se formen deben fomentar también las relaciones humanas entre los alumnos, acostumbrados casi siempre a una práctica individualista y solitaria de sus instrumentos. Deben incrementar la actitud de escucha de todo aquello que rodea la propia ejecución unipersonal en aras a conseguir aspectos inherentes a toda buena interpretación en la agrupación: afinación, empaste, homogeneidad en el fraseo, igualdad en los ataques, claridad en las texturas, etc.
+
+El respeto a todas las indicaciones del director fomentará una actitud de disciplina y provocará la necesidad de memorizar las mismas para que el trabajo realizado a lo largo de los ensayos dé sus frutos en el concierto. En éste, el alumno podrá experimentar una sensación muy diferente, ya que será consciente de que en la práctica de grupo la responsabilidad es compartida. Todo ello redunda a fin de cuentas en la introducción de esa componente de pluralidad que el alumno debe sentir como un elemento básico de su formación al entrar en las enseñanzas profesionales, en el que, parafraseando a Goethe, los conocimientos adquiridos deben permitirle convertir la práctica instrumental en el seno de las agrupaciones en «una conversación entre muchas personas razonables».
+
+## **Objetivos**
+
+La enseñanza de Orquesta y Banda en las enseñanzas profesionales de música tendrá como objetivo contribuir a desarrollar en los alumnos las capacidades siguientes:
+
+1) Profundizar en el conocimiento de los diferentes estilos y de los recursos interpretativos de cada uno de ellos.  
+2) Elaborar criterios personales y razonados sobre cuestiones estéticas a través del trabajo del director y de la experiencia del grupo que le permitan cumplir con su responsabilidad como intérprete dentro del mismo.  
+3) Dominar el propio instrumento de acuerdo con las exigencias de cada obra.  
+4) Aplicar en todo momento la audición polifónica para escuchar simultáneamente las diferentes partes al mismo tiempo que se ejecuta la propia demostrando la sensibilidad auditiva necesaria para perfeccionar gradualmente la calidad sonora.  
+5) Utilizar una amplia y variada gama sonora, de manera que el ajuste de sonido se realice en función de los demás instrumentos del conjunto y de las necesidades interpretativas de la obra.  
+6) Interpretar obras representativas del repertorio de la agrupación de acuerdo con su nivel instrumental y reaccionar con precisión a las indicaciones del director.  
+7) Adquirir y aplicar progresivamente herramientas y competencias para el desarrollo de la memoria.  
+8) Desarrollar la capacidad de lectura a primera vista.  
+9) Aplicar con autonomía progresivamente mayor los conocimientos musicales para la improvisación con el instrumento.  
+10) Respetar las normas que exige toda actuación en grupo: afinación previa, atención continua, valoración del trabajo colectivo, etc., y responsabilizarse en todo momento de las mismas.  
+11) Valorar la práctica en grupo como un proceso de aprendizaje imprescindible para el futuro ejercicio profesional.
+
+## **Contenidos**
+
+Importancia de la afinación previa a partir del «La» del oboe. La anacrusa como movimiento básico de la práctica del grupo. Reacción y comprensión ante las diferentes anacrusas del director. Desarrollo del oído para el control permanente de la afinación dentro de la agrupación. Desarrollo de la igualdad en ataques (instrumentos de viento y percusión). Desarrollo de la igualdad en los golpes de arco.
+
+Conocimiento y valoración de las normas de comportamiento en la agrupación. Estudio previo de la «particella», silencio y concentración para ejecutar en todo momento las indicaciones del director, responsabilidad de anotar las indicaciones, etc.
+
+Importancia del papel de cada uno de los miembros de la agrupación. Trabajo por secciones. Trabajo gradual del repertorio básico más significativo de la agrupación. Valoración del silencio como marco de la interpretación.
+
+## **Criterios de evaluación**
+
+1. **Interpretar por secciones cualesquiera de las obras programadas durante el curso**. *Mediante este criterio se trata de valorar la capacidad para adecuar el propio sonido al de la familia correspondiente y la precisión de ataques y entradas de acuerdo con la anacrusa del director.*  
+2. **Reproducir cualquiera de las obras programadas durante el curso, reduciendo la cuerda al número mínimo posible de alumnos por cada sección de la misma.** *Este criterio pretende evaluar la capacidad de escucha de las otras partes, unificándose con las afines, y el grado de afinación armónica y del conjunto, unificando unísonos.*  
+3. **Repentizar una obra de pequeña dificultad.** *Este criterio pretende comprobar la integración rítmica en el conjunto siguiendo el tempo marcado por el director, la precisión para reaccionar a sus indicaciones, el dominio de su instrumento y el grado de afinación en la lectura a vista.*  
+4. **Estudiar en casa las obras correspondientes al repertorio programado.** *Mediante este criterio se pretende evaluar el sentido de la responsabilidad como miembro de un grupo, la valoración que tiene de su papel dentro del mismo y el respeto por la interpretación musical.*  
+5. **Realizar conciertos públicos con las obras ensayadas.** *Este criterio constata la actitud, necesariamente disciplinada del instrumentista en la orquesta, la capacidad de asumir el papel asignado, su contribución dentro del equilibrio de planos del conjunto y su adecuación al carácter y estilo que marca el director.*
